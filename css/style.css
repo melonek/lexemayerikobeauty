@@ -76,6 +76,9 @@ section {
 .primary-menu .mobile-menu {
   display: none;
 }
+.primary-menu ul {
+  padding: 10px 0;
+}
 .primary-menu li a {
   color: #263a41;
   display: block;
