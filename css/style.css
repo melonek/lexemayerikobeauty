@@ -283,11 +283,13 @@ section {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  padding: 2px;
 }
 .service .single-service {
   -ms-flex-preferred-size: 25%;
   flex-basis: 25%;
   position: relative;
+  padding: 2px;
 }
 .service .single-service .service-hover {
   background-color: rgba(255, 129, 126, 0.9);
@@ -329,3 +331,47 @@ section {
   visibility: visible;
 }
 /*  ***************************** Service Section End *************/
+
+/*  ***************************** Procedures Section Start *************/
+.procedures {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.post {
+  border: 1px solid #e3e6ea;
+  text-align: center;
+  -webkit-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.post img {
+  margin-bottom: 35px;
+}
+.post h4 {
+  margin-bottom: 22px;
+}
+.post h4,
+.post h4 a {
+  color: #263a41;
+  font-size: 22px;
+}
+.post p {
+  margin-bottom: 39px;
+}
+.post .btn {
+  background-color: #30383b;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+.post:hover {
+  -webkit-box-shadow: 0 5px 20px #f0f0f0;
+  box-shadow: 0 5px 20px #f0f0f0;
+}
+.post:hover .btn {
+  background-color: #ff817e;
+  color: #fff;
+}
+/*  ***************************** Procedures Section End *************/
