@@ -210,3 +210,64 @@ section {
 }
 /*  ***************************** Banner Section End *************/
 
+/*  ***************************** About Section Start *************/
+.about {
+  text-align: center;
+}
+.about [class|="flower"] {
+  position: absolute;
+}
+.about .flower-1 {
+  left: 16%;
+  top: 0;
+  max-width: 160px;
+}
+.about .flower-2 {
+  right: 135px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  max-width: 88px;
+}
+.sec-heading {
+  margin-bottom: 70px;
+  position: relative;
+  text-align: center;
+}
+.sec-heading img {
+  max-width: 84px;
+  margin: 0 auto 40px;
+}
+.sec-heading .tagline {
+  color: #888;
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 0.8;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+}
+.sec-heading .sec-title {
+  color: #1e2528;
+  font-size: 42px;
+  margin-bottom: 32px;
+}
+.sec-heading p {
+  color: #888;
+  margin-bottom: 0;
+}
+.btn-round {
+  border-radius: 50px;
+}
+@media screen and (max-width: 991px) {
+  .about .flower-2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sec-heading .sec-title {
+    font-size: 33px;
+  }
+}
+/*  ***************************** About Section End *************/
