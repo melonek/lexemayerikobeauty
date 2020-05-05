@@ -9,7 +9,7 @@
 }
 body {
   color: #6c6c6f;
-  background: url(../images/wallpaper.jpg) no-repeat top center;
+  background: url(../images/wallpaper.jpg) repeat top center;
   background-color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
